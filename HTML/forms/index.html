@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Build a sundae!</h1>
+        <!-- name, flavor, type of ice cream, toppings, sauce, num of scoops, container, has whipped cream?, description, rating/5 -->
+        <div>
+            <label>Name of sundae: </label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Ice cream flavor: </label>
+            <input type="text" placeholder="Vanilla, chocolate, strawberry, etc...">
+        </div>
+
+        <div>
+            <label># of scoops: </label>
+            <input type="number">
+        </div>
+
+        <div>
+            <label>Sauce: </label>
+            <select>
+                <option>Hot fudge</option>
+                <option>Caramel</option>
+                <option>Peanut butter</option>
+                <option>Chocolate syrup</option>
+                <option>White chocolate syrup</option>
+                <option>Strawberry sauce</option>
+                <option>Marshmallow</option>
+                <option>Cream cheese frosting sauce</option>
+                <option>Maple syrup</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Toppings: </label>
+            <select multiple>
+                <option>Rainbow spranks</option>
+                <option>A single nut</option>
+                <option>Peanuts</option>
+                <option>Chocolate shavings</option>
+                <option>Cherry</option>
+                <option>M&Ms</option>
+                <option>Oreos</option>
+                <option>Reeses cups</option>
+                <option>Tiny mochi</option>
+                <option>Gummy bears</option>
+                <option>Cashews</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Container: </label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Has whipped cream?</label>
+            <input type="checkbox">
+        </div>
+
+        <div>
+            <label>Description: </label>
+            <textarea></textarea>
+        </div>
+
+        <div>
+            <label>Rating</label>
+            1⭐<input name="rating" type="radio">
+            2⭐<input name="rating" type="radio">
+            3⭐<input name="rating" type="radio">
+            4⭐<input name="rating" type="radio">
+            5⭐<input name="rating" type="radio">
+        </div>
+
+        <button type="submit">sundae time!!</button>
+    </form>
+</body>
+</html>
