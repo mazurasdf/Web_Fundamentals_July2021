@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#faebd7;
+    height: 100%;
+}
+
+#painting{
+    margin: 20px auto 10px;
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    background-image: url("painting.jpg");
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.fullWidth{
+    width: 100%;
+}
+
+.fullHeight{
+    height: 100%;
+}
+
+#topHalf{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bottomHalf{
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#topLeftColumn{
+    width: 22%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#bigRed{
+    width: 73%;
+    background-color: rgba(255, 0, 0, 0.712);
+}
+
+.whiteBox{
+    background-color: rgba(245, 245, 245, 0.712);
+}
+
+#topOfColumn{
+    height: 42%;
+}
+
+#bottomOfColumn{
+    height: 50%;
+}
+
+#blueBox{
+    width: 22%;
+    background-color: rgba(0, 0, 255, 0.712)
+}
+
+#whiteLong{
+    width: 59%;
+}
+
+#smallColumn{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#smallWhite{
+    height: 40%;
+}
+
+#yellowBox{
+    height: 40%;
+    background-color: rgba(255, 255, 0, 0.712);
+}
