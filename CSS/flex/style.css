@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    background-color: #db7093;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23f3a35e' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    width: 100%;
+    height: 100%;
+}
+
+nav > h1{
+    display:inline;
+    color: whitesmoke;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: indianred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="text"]{
+    height: 35px;
+    width: 150px;
+    border-radius: 25%;
+}
+
+#albums{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.albumBox{
+    width: 300px;
+    height: 400px;
+    border: 2px ridge darkslategrey;
+    background-color: rgba(47, 79, 79, 0.445);
+    margin-top: 15px;
+}
+
+.albumBox > img{
+    width: 100%;
+}
