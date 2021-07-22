@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #a7b8c9;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23bd88c7' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.fixed{
+    position: fixed;
+    top: 0px;
+    left:32%;
+    text-align: center;
+    height: 100px;
+    width: 35%;
+    border: 2px solid black;
+    background-color: darkgrey;
+}
+
+#pokeball{
+    background-color: whitesmoke;
+    height: 400px;
+    width: 400px;
+    margin: 125px auto;
+    border-radius: 100%;
+    box-shadow: 0 0 0 5px black;
+    overflow: hidden;
+}
+
+#topHalf{
+    height:49%;
+    width: 100%;
+    background-color: red;
+    border-bottom: 5px solid black;
+}
+
+/* #middleCircle{
+    background-color: whitesmoke;
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 5px black;
+    position: relative;
+    margin: 0px auto;
+    top: 83%;
+} */
+
+#middleCircle{
+    background-color: whitesmoke;
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 5px black;
+    position: absolute;
+    top: 40%;
+    left: 46%;
+}
