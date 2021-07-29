@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <button onclick="fetchWeather()">Get Weather</button> -->
+    <div id="nav">
+        <select onchange="fetchWeather(this)">
+            <option></option>
+            <option value="2379574">Chicago</option>
+            <option value="44418">London</option>
+            <option value="2383660">Columbus</option>
+            <option value="1132599">Seoul</option>
+            <option value="2378426">Charlotte</option>
+        </select>
+    </div>
+
+    <div id="container">
+        <div id="day1" class="dayBox">
+            <img id="day1img" src="https://www.metaweather.com/static/img/weather/hr.svg" alt="rain">
+
+            <h1 id="day1Description">Heavy Rain</h1>
+
+            <div class="temperatures">
+                <h1 id="day1LowTemp" class="lowTemp">75°</h1>
+                <h1 id="day1HiTemp" class="hiTemp">86°</h1>
+            </div>
+        </div>
+
+        <div id="day2" class="dayBox">
+            <img id="day2img" src="https://www.metaweather.com/static/img/weather/hr.svg" alt="rain">
+
+            <h1 id="day2Description">Heavy Rain</h1>
+
+            <div class="temperatures">
+                <h1 id="day2LowTemp" class="lowTemp">75°</h1>
+                <h1 id="day2HiTemp" class="hiTemp">86°</h1>
+            </div>
+        </div>
+
+        <div id="day3" class="dayBox">
+            <img id="day3img" src="https://www.metaweather.com/static/img/weather/hr.svg" alt="rain">
+
+            <h1 id="day3Description">Heavy Rain</h1>
+
+            <div class="temperatures">
+                <h1 id="day3LowTemp" class="lowTemp">75°</h1>
+                <h1 id="day3HiTemp" class="hiTemp">86°</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

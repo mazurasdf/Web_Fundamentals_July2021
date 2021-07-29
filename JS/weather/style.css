@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(119, 119, 119);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container{
+    width: 100%;
+    height: 85vh;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select{
+    height: 50px;
+    width: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    font-size: larger;
+}
+
+.dayBox{
+    height: 425px;
+    width: 275px;
+    padding: 15px;
+    background-color: rgba(186, 221, 245, 0.753);
+    border-radius: 15px;
+}
+
+.temperatures{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.lowTemp{
+    color: rgb(54, 54, 250);
+}
+
+.hiTemp{
+    color: rgb(240, 50, 50);
+}
+
+h1{
+    text-align: center;
+}
