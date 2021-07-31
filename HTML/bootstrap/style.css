@@ -1,0 +1,8 @@
+.card-body{
+    background-color: lightcoral;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn{
+    border-radius:100px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Main</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Secondary</a>
+        </li>
+    </ul>
+
+    <div class="container d-flex justify-content-evenly mt-4">
+        <div class="card" style="width: 18rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Tame_Impala_-_Currents.png" class="card-img-top" alt="Currents">
+            <div class="card-body">
+              <h5 class="card-title">Currents</h5>
+              <p class="card-text">by Tame Impala</p>
+              <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Listen here</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Tame_Impala_-_Currents.png" class="card-img-top" alt="Currents">
+            <div class="card-body">
+              <h5 class="card-title">Currents</h5>
+              <p class="card-text">by Tame Impala</p>
+              <a href="#" class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Listen here</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Tame_Impala_-_Currents.png" class="card-img-top" alt="Currents">
+            <div class="card-body">
+              <h5 class="card-title">Currents</h5>
+              <p class="card-text">by Tame Impala</p>
+              <a href="#" class="btn btn-info btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Listen here</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
